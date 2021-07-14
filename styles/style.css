@@ -4,11 +4,6 @@ body{
     margin: 0;
 }
 
-/* main{
-    display: flex;
-    justify-content: center;
-} */
-
 .container{
     width: 1050px;
     padding: 30px;
@@ -122,13 +117,12 @@ body{
 .shop-online{
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
+    
 }
 .products{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    /* justify-content: space-between; */
-    /* row-gap: 50px; */
+   
 }
 .product{
     display: flex;

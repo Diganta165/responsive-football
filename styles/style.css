@@ -44,6 +44,11 @@ body{
 
 }
 
+.top-right-half:hover img{
+    transform: scale(1.2);
+    transition: transform 1.5s ease-in-out;
+}
+
 /* players-section */
 .players-section {
     display: flex;
@@ -94,6 +99,7 @@ body{
 
 .shopping-section{
     background: cornflowerblue;
+    margin-bottom: 0;
 }
 
 .shopping-section>h1{
@@ -127,3 +133,43 @@ body{
     padding:10px;
     margin: 20px;
 }
+
+/* Contact Section */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    
+    padding: 5px 30px;
+    margin-top: 30px;
+    color: #0055A5;
+    font-weight: bolder;
+  }
+
+
+
+  /* Footer section */
+  footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .social-icons>a>i{
+      margin: 8px;
+      /* color: black; */
+      color: #0055A5;
+      
+  }

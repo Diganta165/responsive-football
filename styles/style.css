@@ -14,6 +14,15 @@ body{
     padding: 30px;
 }
 
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #2D25A0, #0055A5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
 /* top-section */
 .top-section{
     display: flex;
